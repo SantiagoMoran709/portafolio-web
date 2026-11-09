@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="es-GT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Santiago Morán. Tres proyectos de desarrollo web y software: AtlasFX, Nexora y One Code.">
+  <meta name="theme-color" content="#ebebeb">
+  <title>Santiago Morán — Portafolio</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="motion.js" defer></script>
+</head>
+<body id="inicio">
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="arrow-up" viewBox="0 0 24 24"><path d="M5 19 19 5M8 5h11v11" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="arrow-down" viewBox="0 0 24 24"><path d="M12 4v15m-6-6 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </svg>
+  <a class="skip" href="#proyectos">Saltar a los proyectos</a>
+  <header class="top wrap">
+    <a class="wordmark" href="#inicio" aria-label="Santiago Morán, inicio"><img class="mark" src="assets/santiago-moran.png" alt="" width="34" height="34"><span>Santiago Morán</span></a>
+    <nav aria-label="Navegación principal">
+      <a class="nav-section" href="#sobre-mi">Sobre mí</a>
+      <a class="nav-section" href="#proyectos">Proyectos</a>
+      <a class="github" href="https://github.com/SantiagoMoran709">GitHub <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="mountain" aria-hidden="true">
+        <div class="mountain-drift"><img class="mountain-image" src="assets/montana.jpg" width="736" height="490" alt="" fetchpriority="high"></div>
+      </div>
+      <div class="hero-heading wrap">
+        <p class="eyebrow"><span class="dot"></span> PORTAFOLIO PERSONAL</p>
+        <h1 id="hero-title">Santiago Morán<span>.</span></h1>
+      </div>
+      <div class="hero-copy wrap">
+        <p class="hero-role">Desarrollador web y de software</p>
+        <a class="hero-link" href="#proyectos"><span>Explorar proyectos</span><span class="circle"><svg class="icon" aria-hidden="true"><use href="#arrow-down"/></svg></span></a>
+      </div>
+      <div class="hero-line wrap" aria-hidden="true"><span>SM / PORTAFOLIO</span><span>01—03 / PROYECTOS</span></div>
+    </section>
+
+    <section class="about wrap" id="sobre-mi" aria-labelledby="about-title" data-reveal>
+      <div>
+        <p class="eyebrow"><span class="dot"></span> PERFIL</p>
+        <h2 id="about-title">Sobre mí<span>.</span></h2>
+      </div>
+      <div class="about-description">
+        <p>Desarrollo sitios web y aplicaciones con interfaces claras y fáciles de usar. Me enfoco en entender qué necesita resolver cada proyecto y convertirlo en una herramienta que simplifique el trabajo.</p>
+        <p>He trabajado en sitios para estudios de desarrollo y en herramientas como AtlasFX, un editor de video multipista para web y escritorio.</p>
+      </div>
+      <div class="about-skills">
+        <h3 class="eyebrow">Lenguajes y tecnologías</h3>
+        <ul class="skills-list" role="list">
+          <li><img src="assets/tech/html5.svg" alt="" width="18" height="18">HTML</li>
+          <li><img src="assets/tech/css3.svg" alt="" width="18" height="18">CSS</li>
+          <li><img src="assets/tech/javascript.svg" alt="" width="18" height="18">JavaScript</li>
+          <li><img src="assets/tech/typescript.svg" alt="" width="18" height="18">TypeScript</li>
+          <li><img src="assets/tech/python.svg" alt="" width="18" height="18">Python</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects wrap" id="proyectos" aria-labelledby="projects-title">
+      <header class="section-top" data-reveal>
+        <div><p class="eyebrow"><span class="dot"></span> SELECCIÓN / 01—03</p><h2 id="projects-title">Proyectos<span>.</span></h2></div>
+        <p>Sitios web y software que podés abrir y probar.</p>
+      </header>
+      <div class="project-grid">
+        <article class="project featured" data-reveal>
+          <a class="project-link" href="demos/atlasfx/index.html" target="_blank" rel="noopener" aria-label="Probar el editor AtlasFX (abre en otra pestaña)">
+            <div class="project-image atlas">
+              <img src="assets/atlasfx.jpg" width="1903" height="974" loading="lazy" alt="AtlasFX: biblioteca de medios, visor de video, línea de tiempo y ajustes de color">
+              <span class="image-action">Probar editor <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow project-meta">01 / EDITOR DE VIDEO <span>·</span> TYPESCRIPT</p>
+                <h3>AtlasFX</h3>
+                <p>Editor de video multipista con interfaz en español, biblioteca de medios y edición local.</p>
+              </div>
+              <span class="circle project-arrow" aria-hidden="true"><svg class="icon"><use href="#arrow-up"/></svg></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal>
+          <a class="project-link" href="https://santiagomoran709.github.io/nexora/" target="_blank" rel="noopener" aria-label="Abrir el sitio de Nexora (abre en otra pestaña)">
+            <div class="project-image nexora">
+              <img src="assets/nexora.jpg" width="1440" height="860" loading="lazy" alt="Portada de Nexora con el titular «De la idea a lo digital»">
+              <span class="image-action">Abrir sitio <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow project-meta">02 / SITIO WEB <span>·</span> CSS</p>
+                <h3>Nexora</h3>
+                <p>Sitio de un estudio de desarrollo, con demos conceptuales y un formulario que prepara un resumen para compartir.</p>
+              </div>
+              <span class="circle project-arrow" aria-hidden="true"><svg class="icon"><use href="#arrow-up"/></svg></span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project" data-reveal>
+          <a class="project-link" href="https://estudio-digital-gt-propuesta.mightyjam13.chatgpt.site/" target="_blank" rel="noopener" aria-label="Abrir el sitio de One Code (abre en otra pestaña)">
+            <div class="project-image one-code">
+              <img src="assets/one-code.jpg" width="1440" height="860" loading="lazy" alt="Portada de One Code con el titular «Tu siguiente paso es digital»">
+              <span class="image-action">Abrir sitio <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow project-meta">03 / SITIO WEB <span>·</span> HTML</p>
+                <h3>One Code</h3>
+                <p>Sitio de servicios de desarrollo web, sistemas a medida y automatización de procesos en Guatemala.</p>
+              </div>
+              <span class="circle project-arrow" aria-hidden="true"><svg class="icon"><use href="#arrow-up"/></svg></span>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-bottom">
+      <a class="profile" href="https://github.com/SantiagoMoran709" aria-label="Perfil de Santiago Morán en GitHub">@SantiagoMoran709 <svg class="icon" aria-hidden="true"><use href="#arrow-up"/></svg></a>
+      <a class="back" href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
