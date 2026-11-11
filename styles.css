@@ -41,7 +41,7 @@ h1 span,h2 span{color:var(--accent)}
   letter-spacing:-.035em;
   text-wrap:balance;
 }
-.hero-availability{
+.hero-summary,.hero-availability{
   max-width:60ch;
   margin:8px auto 0;
   color:var(--muted);
