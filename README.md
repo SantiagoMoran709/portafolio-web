@@ -7,3 +7,5 @@ Abrí `index.html` en el navegador. No hace falta instalar nada. Mantené juntos
 - El botón **GitHub** abre el perfil de Santiago Morán.
 
 La portada usa la foto de montaña proporcionada. Las imágenes de Nexora y One Code son capturas de sus sitios; la de AtlasFX proviene de su repositorio. Las animaciones respetan la preferencia de movimiento reducido.
+
+ONE CODE enlaza a su versión actual en GitHub Pages, con una captura del rediseño monocromático. Café Estudio no se incluye como proyecto en este portafolio personal.

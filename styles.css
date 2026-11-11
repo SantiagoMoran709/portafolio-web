@@ -119,3 +119,6 @@ h2{font-size:clamp(48px,8.5vw,105px);line-height:1.02;font-weight:800;letter-spa
 @media(max-width:620px){.about{--about-columns:1fr;gap:16px}.about-skills{margin-top:6px;padding-top:16px}}
 @media(max-width:380px){.top{flex-wrap:wrap;gap:8px;padding-block:9px}.top nav{width:100%;justify-content:space-between}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}.mountain-drift{--drift:0px!important}}
+/* Keep the redesigned ONE CODE capture aligned with the neighboring project. */
+.project-image.one-code{aspect-ratio:1440/860}
+.project-image.one-code img{height:100%;object-fit:cover;object-position:top}
