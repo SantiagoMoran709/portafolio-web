@@ -109,7 +109,8 @@ h2{font-size:clamp(48px,8.5vw,105px);line-height:1.02;font-weight:800;letter-spa
 .project-meta{font-size:10px}.project-meta span{padding-inline:3px;color:var(--accent)}
 .project-info h3{font-size:clamp(33px,5vw,54px);line-height:1.05;font-weight:800;letter-spacing:-.075em;margin:5px 0 7px}
 .featured h3{font-size:clamp(38px,6.1vw,69px)}
-.project-info p:last-child{max-width:58ch;font-size:14px;line-height:1.6;color:var(--muted)}
+.project-info p:not(.project-meta){max-width:58ch;font-size:14px;line-height:1.6;color:var(--muted)}
+.project-tech{margin-top:8px}
 .project-arrow{flex:none;width:43px;height:43px;font-size:17px}
 .project-link:hover .project-arrow,.project-link:focus-visible .project-arrow{transform:translate(2px,-2px)}
 .footer{background:#1d1f1a;color:#f1f1eb}
